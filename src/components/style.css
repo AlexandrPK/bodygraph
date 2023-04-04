@@ -1,0 +1,856 @@
+.bodygraph {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container {
+  height: 400px;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.head {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 55px 90px 55px;
+  border-color: transparent transparent #555 transparent;
+  position: relative;
+  margin: 50px auto 0;
+}
+
+.name {
+  position: absolute;
+  margin: 40px;
+}
+
+.ajna {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 90px 55px 0 55px;
+  border-color: #555555 transparent transparent transparent;
+  position: relative;
+  margin: 25px auto 0;
+}
+
+.ajna .name {
+  position: relative;
+  top: -50px;
+  margin: 0px;
+  margin-left: 40px;
+}
+
+.throat {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 50px;
+  border-color: #555;
+  position: relative;
+  margin: 25px auto 0;
+}
+
+.throat .name {
+  position: relative;
+  top: -10px;
+  margin: 0px;
+  margin-left: 70px;
+}
+
+.g {
+  border-style: solid;
+  border-width: 50px 50px;
+  border-color: #555;
+  position: absolute;
+  top: 15%;
+  left: 38%;
+  rotate: 45deg;
+}
+
+.g .name {
+  rotate: -45deg;
+  text-transform: uppercase;
+  top: -30px;
+  left: -120px;
+}
+
+.sacral {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 50px;
+  border-color: #555;
+  position: absolute;
+  top: 60%;
+  left: 37%;
+  margin: 30px auto 0;
+}
+
+.sacral .name {
+  position: relative;
+  top: -80px;
+  left: 20px;
+}
+
+.spleen {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 55px 90px 55px;
+  border-color: transparent transparent #555 transparent;
+  position: absolute;
+  top: 63%;
+  left: -18%;
+  rotate: 90deg;
+  margin: 10px auto 0;
+}
+
+.spleen .name {
+  rotate: -90deg;
+  left: 20px;
+  top: 20px;
+}
+
+.solar {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 55px 90px 55px;
+  border-color: transparent transparent #555 transparent;
+  position: absolute;
+  top: 63%;
+  left: 90%;
+  rotate: -90deg;
+  margin: 10px auto 0;
+}
+
+.solar .name {
+  position: relative;
+  rotate: 90deg;
+  top: 50px;
+  left: -80px;
+  margin: 0px;
+}
+
+.heart {
+  border-style: solid;
+  border-width: 100px 38px 0 58px;
+  border-color: #555 transparent transparent transparent;
+  position: absolute;
+  left: 70%;
+  top: 30%;
+  rotate: -45deg;
+  margin: 50px auto 0;
+}
+
+.heart .name {
+  top: -50px;
+  rotate: 45deg;
+  margin: 0px;
+  margin-left: 30px;
+}
+
+.root {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 50px;
+  border-color: #555;
+  position: relative;
+  margin: 10px auto 0;
+}
+
+.root .name {
+  position: relative;
+  top: -110px;
+  left: 15px;
+}
+
+.button {
+  position: absolute;
+  padding: 10px;
+  width: 100px;
+  top: 102%;
+  left: 37%;
+  border-radius: 2px;
+  border: 1px solid #7c44c6;
+  cursor: pointer;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #7c44c6;
+  margin-left: 54px;
+}
+
+.button:hover {
+  background-color: #7c44c6;
+  color: #fff;
+}
+
+.active-before {
+  background-color: transparent !important;
+  background: linear-gradient(
+    to bottom,
+    #7c44c6 50%,
+    rgba(255, 255, 255, 0) 50%
+  );
+}
+.active-after {
+  background-color: transparent !important;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 50%,
+    #7c44c6 50%
+  );
+}
+
+.line-head-ajna-first {
+  position: absolute;
+  left: 47%;
+  top: 9%;
+  width: 2px;
+  height: 34px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-head-ajna-second {
+  position: absolute;
+  left: 50%;
+  top: 9%;
+  width: 2px;
+  height: 34px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-head-ajna-third {
+  position: absolute;
+  left: 53%;
+  top: 9%;
+  width: 2px;
+  height: 34px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-ajna-throat-first {
+  position: absolute;
+  left: 47%;
+  top: 18%;
+  width: 2px;
+  height: 80px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-ajna-throat-second {
+  position: absolute;
+  left: 50%;
+  top: 21%;
+  width: 2px;
+  height: 60px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-ajna-throat-third {
+  position: absolute;
+  left: 53%;
+  top: 18%;
+  width: 2px;
+  height: 80px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-throat-g-first {
+  position: absolute;
+  left: 47%;
+  top: 37%;
+  width: 2px;
+  height: 80px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-throat-g-second {
+  position: absolute;
+  left: 50%;
+  top: 37%;
+  width: 2px;
+  height: 50px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-throat-g-third {
+  position: absolute;
+  left: 53%;
+  top: 37%;
+  width: 2px;
+  height: 80px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-g-sacral-first {
+  position: absolute;
+  left: 47%;
+  top: 56%;
+  width: 2px;
+  height: 135px;
+  background-color: #c9c9c9;
+
+  margin: 10px 0;
+}
+
+.line-g-sacral-second {
+  position: absolute;
+  left: 50%;
+  top: 57%;
+  width: 2px;
+  height: 135px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-g-sacral-third {
+  position: absolute;
+  left: 53%;
+  top: 56%;
+  width: 2px;
+  height: 135px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-sacral-root-first {
+  position: absolute;
+  left: 47%;
+  top: 82%;
+  width: 2px;
+  height: 42px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-sacral-root-second {
+  position: absolute;
+  left: 50%;
+  top: 82%;
+  width: 2px;
+  height: 42px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-sacral-root-third {
+  position: absolute;
+  left: 53%;
+  top: 82%;
+  width: 2px;
+  height: 42px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-throat-spleen-left {
+  position: absolute;
+  left: 31%;
+  top: 28%;
+  rotate: 30deg;
+  width: 2px;
+  height: 410px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-throat-spleen-right {
+  position: absolute;
+  left: 34%;
+  top: 28%;
+  rotate: 30deg;
+  width: 2px;
+  height: 410px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-throat-solar-left {
+  position: absolute;
+  left: 66%;
+  top: 28%;
+  rotate: -30deg;
+  width: 2px;
+  height: 410px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-throat-solar-right {
+  position: absolute;
+  left: 69%;
+  top: 28%;
+  rotate: -30deg;
+  width: 2px;
+  height: 415px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-spleen-heart {
+  position: absolute;
+  left: 40%;
+  top: 46%;
+  rotate: 75deg;
+  width: 2px;
+  height: 380px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-spleen-sacral {
+  position: absolute;
+  left: 40%;
+  top: 64%;
+  rotate: -85deg;
+  width: 2px;
+  height: 200px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-sacral-solar {
+  position: absolute;
+  left: 60%;
+  top: 64%;
+  rotate: 85deg;
+  width: 2px;
+  height: 200px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-heart-solar {
+  position: absolute;
+  left: 73%;
+  top: 66%;
+  rotate: -40deg;
+  width: 2px;
+  height: 60px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-throat-heart {
+  position: absolute;
+  left: 60%;
+  top: 33%;
+  rotate: -20deg;
+  width: 2px;
+  height: 250px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-g-heart {
+  position: absolute;
+  left: 60%;
+  top: 51%;
+  rotate: -30deg;
+  width: 2px;
+  height: 100px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-spleen-root-first {
+  position: absolute;
+  left: 35%;
+  top: 69%;
+  rotate: -54deg;
+  width: 2px;
+  height: 250px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-spleen-root-second {
+  position: absolute;
+  left: 33%;
+  top: 71%;
+  rotate: -54deg;
+  width: 2px;
+  height: 250px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-spleen-root-third {
+  position: absolute;
+  left: 31%;
+  top: 73%;
+  rotate: -54deg;
+  width: 2px;
+  height: 250px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-root-solar-first {
+  position: absolute;
+  left: 65%;
+  top: 69%;
+  rotate: 54deg;
+  width: 2px;
+  height: 250px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-root-solar-second {
+  position: absolute;
+  left: 67%;
+  top: 71%;
+  rotate: 54deg;
+  width: 2px;
+  height: 250px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.line-root-solar-third {
+  position: absolute;
+  left: 68%;
+  top: 74%;
+  rotate: 54deg;
+  width: 2px;
+  height: 250px;
+  background-color: #c9c9c9;
+  margin: 10px 0;
+}
+
+.number {
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  width: 17px;
+  height: 17px;
+  line-height: 17px;
+  background-color: #555;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Head */
+#num63 {
+  top: 70px;
+  left: 25px;
+  transform: translateX(-50%);
+}
+
+#num61 {
+  top: 70px;
+  left: 2px;
+  transform: translateX(-50%);
+}
+
+#num64 {
+  top: 70px;
+  left: -23px;
+  transform: translateX(-50%);
+}
+
+/* Ajna */
+#num47 {
+  top: -85px;
+  left: -32px;
+}
+#num24 {
+  top: -85px;
+  left: -7px;
+}
+#num4 {
+  top: -85px;
+  left: 17px;
+}
+#num11 {
+  top: -65px;
+  left: 15px;
+}
+#num17 {
+  top: -65px;
+  left: -31px;
+}
+#num43 {
+  top: -30px;
+  left: -7px;
+}
+
+/* Throat */
+#num62 {
+  top: -40px;
+  left: -32px;
+}
+#num23 {
+  top: -40px;
+  left: -7px;
+}
+#num56 {
+  top: -40px;
+  left: 17px;
+}
+#num16 {
+  top: -20px;
+  left: -45px;
+}
+#num35 {
+  top: -20px;
+  left: 29px;
+}
+#num12 {
+  top: -1px;
+  left: 29px;
+}
+#num45 {
+  top: 17px;
+  left: 29px;
+}
+#num33 {
+  top: 30px;
+  left: 17px;
+}
+#num8 {
+  top: 30px;
+  left: -7px;
+}
+#num31 {
+  top: 30px;
+  left: -32px;
+}
+#num20 {
+  top: 17px;
+  left: -45px;
+}
+
+/* G */
+#num1 {
+  top: -44px;
+  left: -45px;
+  transform: rotate(-45deg);
+}
+
+#num7 {
+  top: -11px;
+  left: -45px;
+  transform: rotate(-45deg);
+}
+#num13 {
+  top: -44px;
+  left: -12px;
+  transform: rotate(-45deg);
+}
+#num25 {
+  top: -44px;
+  left: 28px;
+  transform: rotate(-45deg);
+}
+#num10 {
+  top: 28px;
+  left: -44px;
+  transform: rotate(-45deg);
+}
+#num15 {
+  top: 28px;
+  left: -7px;
+  transform: rotate(-45deg);
+}
+#num2 {
+  top: 28px;
+  left: 28px;
+  transform: rotate(-45deg);
+}
+#num46 {
+  top: -6px;
+  left: 26px;
+  transform: rotate(-45deg);
+}
+/* Heart */
+#num21 {
+  top: -95px;
+  left: 5px;
+  transform: rotate(45deg);
+}
+#num51 {
+  top: -95px;
+  left: -16px;
+  transform: rotate(45deg);
+}
+#num26 {
+  top: -95px;
+  left: -45px;
+  transform: rotate(45deg);
+}
+#num40 {
+  top: -35px;
+  left: -10px;
+  transform: rotate(45deg);
+}
+
+/* Sacral */
+
+#num5 {
+  top: -40px;
+  left: -32px;
+}
+#num14 {
+  top: -40px;
+  left: -7px;
+}
+#num29 {
+  top: -40px;
+  left: 17px;
+}
+#num34 {
+  top: -26px;
+  left: -45px;
+}
+
+#num59 {
+  top: -5px;
+  left: 29px;
+}
+#num9 {
+  top: 30px;
+  left: 17px;
+}
+#num3 {
+  top: 30px;
+  left: -7px;
+}
+#num42 {
+  top: 30px;
+  left: -32px;
+}
+#num27 {
+  top: -5px;
+  left: -45px;
+}
+
+/* Root */
+#num53 {
+  top: -40px;
+  left: -32px;
+}
+#num60 {
+  top: -40px;
+  left: -7px;
+}
+#num52 {
+  top: -40px;
+  left: 17px;
+}
+#num54 {
+  top: -20px;
+  left: -45px;
+}
+#num19 {
+  top: -20px;
+  left: 29px;
+}
+#num39 {
+  top: 1px;
+  left: 29px;
+}
+#num41 {
+  top: 26px;
+  left: 29px;
+}
+#num58 {
+  top: 26px;
+  left: -45px;
+}
+#num38 {
+  top: 1px;
+  left: -45px;
+}
+
+/* Spleen */
+#num48 {
+  top: 70px;
+  left: -40px;
+  transform: rotate(-90deg);
+}
+#num18 {
+  top: 70px;
+  left: 25px;
+  transform: rotate(-90deg);
+}
+#num57 {
+  top: 50px;
+  left: -30px;
+  transform: rotate(-90deg);
+}
+#num28 {
+  top: 50px;
+  left: 15px;
+  transform: rotate(-90deg);
+}
+#num32 {
+  top: 30px;
+  left: 4px;
+  transform: rotate(-90deg);
+}
+#num44 {
+  top: 30px;
+  left: -20px;
+  transform: rotate(-90deg);
+}
+#num50 {
+  top: 10px;
+  left: -8px;
+  transform: rotate(-90deg);
+}
+
+/* Solar */
+
+#num30 {
+  top: 70px;
+  left: -40px;
+  transform: rotate(90deg);
+}
+#num36 {
+  top: 70px;
+  left: 25px;
+  transform: rotate(90deg);
+}
+#num55 {
+  top: 50px;
+  left: -30px;
+  transform: rotate(90deg);
+}
+#num22 {
+  top: 50px;
+  left: 15px;
+  transform: rotate(90deg);
+}
+#num37 {
+  top: 30px;
+  left: 4px;
+  transform: rotate(90deg);
+}
+#num49 {
+  top: 30px;
+  left: -20px;
+  transform: rotate(90deg);
+}
+#num6 {
+  top: 10px;
+  left: -8px;
+  transform: rotate(90deg);
+}
